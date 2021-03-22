@@ -1,0 +1,139 @@
+<!--    ___   ____
+        /' --;^/ ,-_\     \ | /
+       / / --o\ o-\ \\   --(_)--
+      /-/-/|o|-|\-\\|\\   / | \
+       '`  ` |-|   `` '
+             |-|
+             |-|O
+             |-(\,__
+          ...|-|\--,\_....
+      ,;;;;;;;;;;;;;;;;;;;;;;;;,.
+~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,  ______   ---------   _____     ------ -->
+<!-- 
+ _   .-')     ('-. .-. _  .-')                                               
+( '.( OO )_  ( OO )  /( \( -O )                                              
+ ,--.   ,--.),--. ,--. ,------.        .-----.   .----.   .-----.   .----.   
+ |   `.'   | |  | |  | |   /`. '      / ,-.   \ /  ..  \ / ,-.   \ /  ..  \  
+ |         | |   .|  | |  /  | |      '-'  |  |.  /  \  .'-'  |  |.  /  \  . 
+ |  |'.'|  | |       | |  |_.' |         .'  / |  |  '  |   .'  / |  |  '  | 
+ |  |   |  | |  .-.  | |  .  '.'       .'  /__ '  \  /  ' .'  /__ '  \  /  ' 
+ |  |   |  | |  | |  | |  |\  \       |       | \  `'  / |       | \  `'  /  
+ `--'   `--' `--' `--' `--' '--'      `-------'  `---''  `-------'  `---''   -->  
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <link rel="icon" href="images/favicon.ico">
+
+  <meta charset="UTF-8">
+  <title>desktop_tropicalia</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="loader_style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-- 	  <img src="images/island_desktop_scaled.png" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+ -->
+<!-- <div class="loader">
+  <div class="image">
+    <i class="fa fa-credit-card"></i>
+  </div>
+  <span></span>
+</div> -->
+
+ 
+   
+
+
+ <div id = "container" class="text-center">
+<!-- 	<img src="images/island_desktop_scaled.png" width="85%" height="auto"class="img-fluid" alt="Responsive image"> -->
+    <img src="images/server_farm_small.gif" id="server_farm" class="img-fluid">
+    <img onclick="tree_clicked()"src="images/1rotatetree.gif" id="tree" class="img-fluid">
+    <img onclick="tree_clicked2()"src="images/1rotatetree2.gif" id="tree2" class="img-fluid">
+    <img onclick="tree_clicked3()"src="images/1rotatetree3.gif" id="tree3" class="img-fluid">
+
+
+
+
+    <img onclick="clicked3()"id="mover3" class="img-fluid3" src="images/bird1b.gif">
+
+    <img onclick="clicked()"id="mover" class="img-fluid" src="images/bird1.gif">
+    <img onclick="clicked2()"id="mover2" class="img-fluid2" src="images/bird1a.gif">
+ 
+      <!--  <img src="images/bat2.gif" class="img-fluid img-2" alt="Responsive image"> -->
+
+         <!--  <img src="images/1dolphinR.gif" id="dolphin" class="img-fluid"> -->
+
+ 
+    <img src="images/ocean2.jpg" id="oceanfront2" class="img-fluid ocean2" alt="Responsive image">
+
+     <img onclick="city_clicked()" src="images/1cubecity.gif" id="city" class="img-fluid">
+     <img src="images/1slowDolphinR.gif" id="dolphin" class="img-fluid">
+
+
+<img src="images/ocean1.jpg" id="oceanfront1" class="img-fluid ocean1" alt="Responsive image">
+
+<!-- <p class="example"></p> -->
+<p id="text"><span style="background-color: #FFFF00">📲 PLEASE ROTATE TO LANDSCAPE ORIENTATION! 📲</span></p>
+
+<!-- <div id="safari_box">
+ -->
+
+<!-- </div>
+ -->
+
+ 
+ <div class="loader-wrapper">
+      <div class="loader-label">your tropical island paradise is almost ready</div>
+
+      <span class="loader"></span>
+      <span class="loader-inner"></span>
+    </div>
+
+
+
+</div>
+
+
+
+<p id="safari"><span style="background-color: #FFFF00">🌍 PLEASE VIEW ON CHROME OR FIREFOX 🌏</span></p>
+
+ 
+
+<!-- partial:index.partial.html -->
+
+<!-- partial -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script  src="./script.js"></script>
+<script  src="loader_script.js"></script>
+<script type="text/javascript">
+
+  function loadFrame(){
+
+              $(".loader-wrapper").fadeOut("slow");
+              $(".loader-label").fadeOut("slow");
+
+    
+}
+  
+window.onload = setTimeout(loadFrame, 25000);
+
+      
+</script>
+
+</div>
+</body>
+</html>
