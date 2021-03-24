@@ -120,6 +120,7 @@
 <script  src="./script.js"></script>
 <script  src="loader_script.js"></script>
 <script type="text/javascript">
+        
 
   function loadFrame(){
 
@@ -128,6 +129,23 @@
 
     
 }
+        
+        var images_preload = new Array();
+
+
+      function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+          images_preload[i] = new Image()
+          images_preload[i].src = preload.arguments[i]
+        }
+      }
+      preload(
+        "plane.png",
+        "palm.png",
+        "beach.png",
+        "drink.png",
+        "sun.png"
+      );
   
 window.onload = setTimeout(loadFrame, 25000);
 
